@@ -1,0 +1,19 @@
+{
+    "name": "erekonfa",
+    "version": "1.0.0",
+    "description": "ere konferens",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "keywords": [
+        "konfa",
+        "konferens"
+    ],
+    "author": "Hugo Häggmark",
+    "license": "MIT",
+    "dependencies": {
+        "express": "*",
+        "nodemon": "*"
+    }
+}
