@@ -2,7 +2,7 @@ html {
     background-color: #111;
 }
 body {
-    color: #ccc;
+    color: #000;
     background-color: #111;
     display: table;
     height: 100%;
@@ -27,14 +27,14 @@ img {
     padding: 0;
     padding-top: 1%;
     text-align: center;
-    font-size: 24pt;
+    font-size: 34pt;
     width: 100%;
 }
 .konfa {
     padding: 0;
     margin: 0;
     padding-top: 1%;
-    font-size: 80pt;
+    font-size: 120pt;
     text-align: center;
 }
 .tid {
