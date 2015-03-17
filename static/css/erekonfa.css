@@ -2,7 +2,7 @@ html {
     background-color: #111;
 }
 body {
-    color: #000;
+    color: #eee;
     background-color: #111;
     display: table;
     height: 100%;
@@ -11,11 +11,16 @@ body {
     font-family: sans-serif;
     z-index: 1;
     overflow: hidden;
+    /*    
     background-image: url(../img/winter.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+*/
+}
+canvas {
+    display: block;
 }
 img {
     margin: 10px;
