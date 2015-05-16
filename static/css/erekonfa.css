@@ -1,6 +1,7 @@
 html {
     background-color: #111;
 }
+
 body {
     color: #eee;
     background-color: #111;
@@ -11,21 +12,22 @@ body {
     font-family: sans-serif;
     z-index: 1;
     overflow: hidden;
-    /*    
-    background-image: url(../img/winter.png);
+    background-image: url(../img/sailing.gif);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-*/
 }
+
 canvas {
     display: block;
 }
+
 img {
     margin: 10px;
     padding: 10px;
 }
+
 .ere {
     margin: 0;
     margin-top: 5%;
@@ -35,6 +37,7 @@ img {
     font-size: 24pt;
     width: 100%;
 }
+
 .konfa {
     padding: 0;
     margin: 0;
@@ -42,6 +45,7 @@ img {
     font-size: 80pt;
     text-align: center;
 }
+
 .tid {
     color: #666;
     margin: 0;

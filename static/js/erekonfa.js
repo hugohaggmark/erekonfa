@@ -1,4 +1,4 @@
-var getQueryVariable = function(variable) {
+var getQueryVariable = function (variable) {
     var query = window.location.search.substring(1);
     var vars = query.split("&");
     for (var i = 0; i < vars.length; i++) {
@@ -17,14 +17,14 @@ countdown.setLabels(
     ', ',
     'kvar');
 
-$(document).ready(function() {
-    var name = getQueryVariable("namn") || "Engelberg";
-    var start = getQueryVariable("start") || "2015-03-20 00:00:01";
-    var slut = getQueryVariable("slut") || "2015-03-23 19:00:00";
+$(document).ready(function () {
+    var name = getQueryVariable("namn") || "Segling i skärgården";
+    var start = getQueryVariable("start") || "2015-09-03 00:00:01";
+    var slut = getQueryVariable("slut") || "2015-09-05 23:59:59";
     var startDate = moment(start);
     var stopDate = moment(slut);
     var today = moment(new Date());
-    var timerId = countdown(startDate, function(ts) {
+    var timerId = countdown(startDate, function (ts) {
         $(".tid").text(ts + " kvar till " + name + "!");
     });
 
@@ -40,6 +40,7 @@ $(document).ready(function() {
     }
 });
 
+/*
 // CREDITS:
 // Snowmaker Copyright (c) 2003 Peter Gehrig. All rights reserved.
 // Distributed by Hypergurl
@@ -166,3 +167,4 @@ for (i = 0; i <= snowmax; i++) {
 if (browserok) {
     window.onload = initsnow;
 }
+*/
