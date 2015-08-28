@@ -19,8 +19,8 @@ countdown.setLabels(
 
 $(document).ready(function () {
     var name = getQueryVariable("namn") || "Segling i skärgården";
-    var start = getQueryVariable("start") || "2015-09-03 00:00:01";
-    var slut = getQueryVariable("slut") || "2015-09-05 23:59:59";
+    var start = getQueryVariable("start") || "2015-09-03 07:00:00";
+    var slut = getQueryVariable("slut") || "2015-09-04 23:59:59";
     var startDate = moment(start);
     var stopDate = moment(slut);
     var today = moment(new Date());
